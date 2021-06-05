@@ -23,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: 500,
     backgroundColor: "#424242",
     color: "#fff",
+    // marginBottom: 10,
   },
   image: {
     width: 128,
@@ -59,6 +60,8 @@ const useStyles = makeStyles((theme) => ({
   trackerlink: {
     cursor: "pointer",
   },
+  // last: {
+  // },
 }));
 
 const PlayerMain = (props) => {
@@ -120,7 +123,7 @@ const PlayerMain = (props) => {
             </Tooltip>
           ))}
         </Grid>
-        <Grid item xs={12}>
+        <Grid classNames={classes.last} item xs={12}>
           {" "}
           <ProgressBar value={props.total}></ProgressBar>{" "}
         </Grid>

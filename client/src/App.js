@@ -102,6 +102,7 @@ class App extends Component {
                 ></PlayerMain>
               </Grid>
             ))}
+          <Grid item> </Grid>
         </Grid>
         <ContactUs></ContactUs>
       </div>

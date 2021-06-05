@@ -175,7 +175,7 @@ const ContactUs = () => {
                     inputProps={{
                       maxLength: 10,
                     }}
-                    placeholder={"Enter your name"}
+                    placeholder={"Enter your name (min 3)"}
                     required
                     theme={theme}
                     id="standard-basic"
@@ -192,7 +192,7 @@ const ContactUs = () => {
                       maxLength: 100,
                     }}
                     className={classes.msgBox}
-                    placeholder={"Write a message"}
+                    placeholder={"Write a message (min 6 characters)"}
                     // helperText="Too short."
                     label="Message"
                     onChange={handleChangeMsg}
